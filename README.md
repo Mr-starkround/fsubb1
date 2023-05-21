@@ -26,7 +26,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan bot ini dengan bijak.
 
 ## 🛡 Installation
 ### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ayrizz/6)</br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/naya1503/6button)</br>
 
 
 <details>
@@ -66,9 +66,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan bot ini dengan bijak.
 
 </details>
 
-## 🏷 Support   
-- Follow Channel [@Userbotch](https://t.me/userbotch) untuk info Update bot 
-- Gabung Group [@ramsupportt](https://t.me/ramsupportt) untuk diskusi, pelaporan bug, dan bantuan tentang File-Sharing-Man.
+
 
 ## 👨🏻‍💻 Credits
 
