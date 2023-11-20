@@ -19,7 +19,7 @@ from config import (
 from database.sql import add_user, full_userbase, query_msg
 from pyrogram import filters, Client
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked
-from pyrogram.types import InlineKeyboardButton, Message
+from pyrogram.types import InlineKeyboardButton, Message, InlineKeyboardMarkup
 from pyrogram.enums import ParseMode
 
 from helper_func import decode, get_messages, subsall, subsch, subsgc, substai, subslg, substr, subsml
@@ -142,7 +142,7 @@ async def start_command(client: Bot, message: Message):
                 mention=message.from_user.mention,
                 id=message.from_user.id,
             ),
-            reply_markup=InlineKeyboardButton(out),
+            reply_markup=InlineKeyboardMarkup(out),
             quote=True,
             disable_web_page_preview=True,
         )
@@ -180,7 +180,7 @@ async def not_joined(client: Client, message: Message):
                 mention = message.from_user.mention,
                 id = message.from_user.id
             ),
-        reply_markup = InlineKeyboardButton(buttons),
+        reply_markup = InlineKeyboardMarkup(buttons),
         quote = True,
         disable_web_page_preview = True
     )
