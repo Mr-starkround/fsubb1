@@ -180,7 +180,7 @@ async def not_joined(client: Client, message: Message):
                 mention = message.from_user.mention,
                 id = message.from_user.id
             ),
-        reply_markup = InlineKeyboardMarkup(buttons),
+        reply_markup = InlineKeyboardButton(buttons),
         quote = True,
         disable_web_page_preview = True
     )
