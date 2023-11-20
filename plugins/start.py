@@ -17,7 +17,7 @@ from config import (
     START_MSG,
 )
 from database.sql import add_user, full_userbase, query_msg
-from pyrogram import filters
+from pyrogram import filters, Client
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked
 from pyrogram.types import InlineKeyboardMarkup, Message
 from pyrogram.enums import ParseMode
