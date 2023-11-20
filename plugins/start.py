@@ -19,7 +19,7 @@ from config import (
 from database.sql import add_user, full_userbase, query_msg
 from pyrogram import filters, Client
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked
-from pyrogram.types import InlineKeyboardMarkup, Message
+from pyrogram.types import InlineKeyboardButton, Message
 from pyrogram.enums import ParseMode
 
 from helper_func import decode, get_messages, subsall, subsch, subsgc, substai, subslg, substr, subsml
