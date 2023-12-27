@@ -34,10 +34,10 @@ def start_button(client):
             return [
                 [
                     InlineKeyboardButton(
-                        text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=client.invitelink2
+                        text="ɢʀᴏᴜᴘ", url=client.invitelink2
                     ),
                     InlineKeyboardButton(
-                        text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=client.invitelink3
+                        text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink3
                     ),
                 ],
                 [
@@ -49,7 +49,7 @@ def start_button(client):
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP and not FORCE_SUB_GROUP2 and not FORCE_SUB_GROUP3 and not FORCE_SUB_GROUP4 and not FORCE_SUB_GROUP5:
         return [
             [
-                InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=client.invitelink),
+                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
             ],
             [
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
@@ -58,19 +58,19 @@ def start_button(client):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP and not FORCE_SUB_GROUP2 and not FORCE_SUB_GROUP3 and not FORCE_SUB_GROUP4 and not FORCE_SUB_GROUP5:
         return [
             [
-                InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=client.invitelink),
-                InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=client.invitelink2),
+                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+                InlineKeyboardButton(text="ɢʀᴏᴜᴘ", url=client.invitelink2),
             ],
             [InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close")],
         ]
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP and FORCE_SUB_GROUP2 and not FORCE_SUB_GROUP3 and not FORCE_SUB_GROUP4 and not FORCE_SUB_GROUP5:
         return [
             [
-                InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=client.invitelink),
-                InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=client.invitelink2),
+                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink),
+                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink2),
             ],
             [
-                InlineKeyboardButton(text="𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=client.invitelink3),
+                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url=client.invitelink3),
             ],
             [
                 InlineKeyboardButton(text="• ᴛᴜᴛᴜᴘ •", callback_data="close"),
